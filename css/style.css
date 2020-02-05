@@ -1,0 +1,725 @@
+/* Start Main Rulez */ 
+* {
+    padding:0;
+    margin:0;
+    font-family:Arial, Tahoma;
+    box-sizing:border-box
+}
+
+.container {width:1170px;margin:auto}
+
+/* End Main Rulez */ 
+
+/* Start Header */
+
+.header {
+    background-image:url('../images/2.jpg');
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url('../images/2.jpg');
+    background-size:cover;
+    height:600px;
+}
+
+.header .topnav {
+    color:#999999;
+    font-size:12px;
+    padding:7px;
+    overflow:hidden
+}
+.header .topnav .icons i {float:left;margin-right:10px}
+.header .topnav .icons p {float:left;margin-right: 18px;}
+
+.header .topnav .icons span {color:#11dd77}
+
+.header .topnav ul {
+    
+}
+
+.header .topnav ul li {
+    list-style:none;
+    float:right;
+    margin-left:10px
+}
+.header .navbar {
+    color:#000;
+    overflow:hidden
+}
+
+.header .navbar h2 {
+    float:left;
+    color:#FFF
+}
+
+.header .navbar ul {
+    list-style:none;
+    float:right
+}
+.header .navbar ul li {
+    float:left;
+    padding:10px;
+}
+
+.header .navbar ul button {
+    background: none;
+    border: none;
+    color: #FFF;
+    background-color: #11dd77;
+    margin-left: 10px;
+    font-size: 13px;
+    border-radius: 39px;
+    font-weight: bold;
+    padding: 10px 18px;
+    margin-top: 1px;
+    cursor:pointer
+}
+
+.header .navbar ul li a {
+    text-decoration:none;
+    padding-left:10px;
+    color:#FFF
+}
+
+.header .slider .intro h4 {
+    color:#6e6868;
+    padding-top:110px
+}
+
+.header .slider .intro h1 {
+    color:#FFF;
+    font-size:50px;
+    padding-bottom: 40px;
+    margin:3px
+}
+.header .slider .intro i {
+    color:#11dd77;
+    margin-right: -46px;
+    padding-left: 22px;
+}
+.header .slider .intro button {
+    background: none;
+    border: none;
+    color: #FFF;
+    background-color: #11dd77;
+    margin-left: 10px;
+    font-size: 13px;
+    border-radius: 39px;
+    font-weight: bolder;
+    padding: 10px 18px;
+    margin-top: 8px;
+    cursor:pointer
+}
+
+.header .slider .intro .unactive {
+    background: none;
+    margin-bottom: 116px;
+    border: 1px solid #11dd77 ;
+    color: #FFF;
+    margin-left: 10px;
+    font-size: 13px;
+    border-radius: 39px;
+    font-weight: bold;
+    padding: 10px 40px;
+    margin-top: 8px;
+    cursor:pointer
+}
+.header .features  {
+    overflow:hidden;
+    background-color:rgba(46, 49, 82, 0.5);
+}
+.header .features .feature {
+    float:left;
+    width:33.33333%;
+    height:85px;
+}
+.header .features .feature i {
+    color: #11dd77;
+    float: left;
+    width: 70px;
+    /* padding-top: 25px; */
+    border-radius: 50%;
+    background-color: rgba(69, 74, 94, 0.5);
+    margin-top: 8px;
+    font-size: 30px;
+    height: 70px;
+    margin-right: 15px;
+    line-height: 70px;
+    text-align: center;
+}
+.header .features .feature .text {width:65%;float:left}
+.header .features .feature .text h3 {
+    color:#FFF;
+    font-weight:bold;
+    font-size:15px;
+    padding-bottom: 11px;
+    margin-top: 16px;
+}
+
+.header .features .feature .text p {
+    color:#6e6868;
+    font-size:10px;
+    font-weight:bold;
+}
+/* End Header */
+
+/* Start News */
+
+.news {padding-top: 34px}
+.news .image .date {
+    overflow:hidden;
+    position:absolute;
+    width:80px;
+    height:80px;
+    border:1px solid ;
+    text-align: center;
+    padding-top: 14px;
+    font-size:14px;
+    background-color:#11dd77;
+    color:#FFF;
+    line-height:1.2
+}
+
+.news .image .date span {
+    font-size:30px;
+    font-weight:bold;
+    color:#FFF
+}
+.news .image {
+    float:left;
+    overflow:hidden;
+    position:relative
+}
+
+.news .image .other {
+    position: absolute;
+    width: 98%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.70);
+    padding: 15px 0px 20px 25px;
+    margin: 0px 0px 4px 11px;
+    
+}
+.news .image img {
+    padding-top: 20px;
+    padding-left: 10px
+}
+.news .image .other p {
+    color:#FFF;
+}
+.news .image .other i {
+    font-size: 14px;
+    color: #11dd77;
+    padding: 12px 1px 13px
+}
+.news .image .other span {
+    color:#6e6868;
+    font-size: 14px
+}
+
+ .news .lecture {
+    float:left
+}
+
+.news .lecture h2 {
+    color:#3a3535;
+    font-size: 26px;
+    padding: 16px;
+}
+
+.news .lecture p {
+    color:#3a3535;
+    font-size: 15px;
+    padding-top: 16px;
+    padding-left: 15px;
+    line-height:1.4;
+    
+}
+
+.news .lecture span {
+    color:#6e6868;
+    font-size:13px;
+    padding-left: 15px
+}
+
+.news .lecture hr {margin:11px;}
+
+.news .about-school {padding-left:700px}
+
+.news .about-school h2 {
+    color:#3a3535;
+    font-size: 26px;
+    padding: 16px;
+}
+
+.news .about-school p {
+    color:#3a3535;
+    font-size: 15px;
+    padding-top: 16px;
+    padding-left: 15px;
+    line-height:1.4
+}
+/* End News */
+
+/* Start Goals */ 
+
+.goals {
+    background-image: url(../images/img3.jfif);
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url('../images/img3.jfif');
+    background-size: cover;
+    height:600px;
+    padding-top: 63px;
+    position: relative;
+    margin-top: 223px;
+}
+
+.goals .images {position:relative}
+
+.goals .images h4 {
+    color:#6e6868;
+    text-align:center;
+    font-size:16px;
+    padding-bottom: 7px
+}
+
+.goals .images h2 {
+    color:#11dd77;
+    text-align:center;
+    font-size:22px
+}
+
+.goals .images .first ul {list-style:none;}
+
+.goals .images .first ul li {
+    float:left;
+    color: #FFF;
+    padding: 25px 80px;;
+    text-align: center
+}
+
+.goals .images .first ul li span {
+    font-size:46px;
+    font-weight:bold;
+}
+
+.goals .images .cards {
+    width: 249px;
+    height: 295px;
+    margin:50px auto;
+    position:absolute;
+}
+
+.goals .images .cards .card-1 {
+    position:relative;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background-color:#4A4E8E;
+}
+
+.goals .images .cards .card-1 h3 {
+    color:#FFF;
+    text-align:center;
+    padding:10px;
+    margin-top:8px
+}
+.goals .images .cards .card-1 ul {list-style:none;}
+
+.goals .images .cards .card-1 ul i {color:#11dd77 }
+.goals .images .cards .card-1 ul li {
+    margin-left: 21px;
+    color:#6e6868;
+    padding:4px;
+    
+}
+
+.goals .images .cards .card-2 {
+    position:relative;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background-color:#31335C;
+    margin-right:30px
+}
+
+.goals .images .cards .card-2 h3 {
+    color:#FFF;
+    text-align:center;
+    padding:10px;
+    margin-top:8px
+}
+
+.goals .images .cards .card-2 ul {list-style:none;}
+
+.goals .images .cards .card-2 li {
+    margin-left: 21px;
+    color:#6e6868;
+    padding:4px;
+    font-size:15px
+}
+
+.goals .images .cards .card-2 span {
+    color:#11dd77;
+    float: right
+}
+
+.goals .images .cards .card-2 hr {
+   border: 1px solid #FFF;
+    
+}
+
+.goals .images .cards .card-3 {
+    position:relative;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background-color:#31335C;
+}
+
+.goals .images .cards .card-3 h3 {
+    color:#FFF;
+    text-align:center;
+    padding:10px;
+    margin-top:8px
+}
+
+.goals .images .cards .card-3 .form input  {
+   margin:10px;
+    padding:7px 7px 10px 21px;
+    
+}
+
+.goals .images .cards .card-3 .form button {
+    background-color:#11dd77;
+    color:#FFF;
+    margin: 9px;
+    border: none;
+    padding: 10px 66px;
+    cursor:pointer
+}
+/* End Goals */
+
+/* Start Collections */
+
+.collections h2 {
+    text-align: center;
+    padding: 40px;
+}
+.collections .life  {
+    overflow:hidden
+}
+.collections .life .offer {
+    
+}
+.collections .life .offer img {
+    float:left;
+    width: 22%;
+    margin: 13px;
+}
+
+.collections .life .offer i {
+    font-size:15px
+}
+
+.collections .life .offer h5 {
+    display:inline-block
+}
+
+.collections .life .offer span {
+    color:#6e6868;
+    font-size:11px
+}
+
+.collections button {
+    background: none;
+    border: none;
+    color: #FFF;
+    background-color: #11dd77;
+    margin-left: 10px;
+    font-size: 13px;
+    border-radius: 39px;
+    font-weight: bolder;
+    padding: 10px 18px;
+    margin-top: 8px;
+    margin-left: 493px;
+    cursor:pointer
+}
+
+.collections p  {
+    padding-top:18px;
+    line-height:1.6;
+    color:#6e6868;
+    font-style:italic;
+    font-size:14px;
+    text-align:center
+}
+
+.collections span  {
+    color: #11dd77;
+    text-align:center
+}
+/* End Collections */
+
+/* Start Events */
+.events {
+    background-image: url(../images/the-road.jpg);
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url('../images/the-road.jpg');
+    background-size:cover;
+    height:100vh;
+    width:100vw
+}
+
+.events .inform {
+    float:left;
+    padding-left:140px;
+    width:49%
+}
+.events .inform h2 {
+    color: #11dd77;
+    padding-top: 136px;
+    padding-bottom: 37px
+}
+
+.events .inform button {
+    width: 75px;
+    height: 75px;
+    border:1px solid #11dd77;
+    background:none;
+    color:#11dd77;
+    float:left;
+    margin-right:20px
+}
+
+.events .inform p {
+    color:#FFF;
+    font-size: 15px;
+    line-height: 1.5;
+}
+
+.events .inform i {
+    font-size: 14px;
+    color: #11dd77;
+    padding: 12px 1px 13px;
+}
+.events .inform span {color:#6e6868;font-size: 13px;}
+
+.events .picture {
+    float:right;
+    overflow:hidden;
+    position:relative
+}
+.events .picture img {
+    float: right;
+    padding: 154px 65px 0px 1px
+}
+
+.events .picture .about {
+    position: absolute;
+    width: 84%;
+    background-color: rgba(0, 0, 0, 0.77);
+    margin: 448px -3px -7px 5px;
+}
+
+.events .picture .about p {
+    text-align:center;
+    color:#FFF;
+    font-size:10px}
+
+.events .picture .about i {
+    text-align:center;
+    color:#6e6868;
+    font-size:8px}
+.events .picture .about span {
+    color:#6e6868;
+    font-size: 8px;
+    padding: 8px 5px 4px 4px;
+    text-align: center;
+    margin-right: 5px;
+}
+
+/* End Events */
+
+/* Start Gallery */
+
+.gallery {padding-top:80px}
+
+.gallery .explore {}
+
+.gallery .explore .left {float: left}
+
+.gallery .explore .left h6 {color:#6e6868;}
+
+.gallery .explore .alone {
+    display: inline-block;
+    text-align: center;
+    margin-left: 86px;
+    margin-top:-8px
+}
+.gallery .explore .alone  {font-size:12px}
+
+.gallery .explore .alone span {
+    font-size:40px;
+    font-weight:bold
+}
+
+.gallery .explore .left .head  {
+    font-size: 20px;
+    padding: 10px 0 10px 0;
+    font-weight: bold;
+}
+
+.gallery .explore .right {
+    width: 50%;
+    float: right;
+}
+
+.gallery .explore .right p {
+    color:#6e6868;
+    width: 597px
+}
+
+.gallery .photos {padding-top:50px}
+
+.gallery .photos .first img {width:50%}
+.gallery .photos .square
+.gallery .photos .square .small img {width:25%}
+
+/* End Gallery */
+
+/* Start Contact-us */
+
+.contact-us {padding-top: 100px;width:100vw}
+
+.contact-us .about-us {
+    background-image: url(../images/balance-work-and-study-1.jpg);  
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url('../images/balance-work-and-study-1.jpg');
+    background-size:cover;
+    height:auto;
+    text-align:center;
+}
+
+.contact-us .about-us i {color:#11dd77;padding-bottom:23px}
+
+.contact-us .about-us p {
+    color:#FFF;
+    text-align: center;
+    line-height: 1.4;
+
+}
+
+.contact-us .about-us ul {
+    list-style:none;
+    padding-left:0;
+    text-align:center
+}
+
+.contact-us .about-us li {
+    width:10px;
+    height:10px;
+    display:inline-block;
+    border:1px solid #11dd77;
+    border-radius:50%
+}
+
+.contact-us .about-us ul li.active {background-color:#11dd77 }
+
+.contact-us .about-us ul li:hover {background-color:#11dd77}
+
+.contact-us .about-us span {color:#11dd77;}
+
+.contact-us .contact {
+    height:400px;
+    background-color:#4A4E8E;
+}
+
+.contact-us .contact .sub {width:25%;float:left}
+ 
+.contact-us .contact .sub h4  { 
+    padding: 106px 0px 1px 65px;
+    color:#11dd77;
+    
+}
+
+.contact-us .contact .sub span  {
+    padding:80px 0 0 65px;  
+    color:#11dd77;
+    font-size:12px
+}
+
+.contact-us .contact .sub p {color:#686A75;padding: 10px}
+
+.contact-us .contact .sub input {
+    margin:8px;
+    padding: 8px;
+    background: none;
+    border: 1px solid #6e6868;
+}
+
+.contact-us .contact .sub button{
+    background-color:#11dd77;
+    color:#FFF;
+    padding:8px;
+    border:none
+        
+}
+
+.contact-us .contact .sub i {text-align: center; color:#6e6868;margin: 5px}
+
+.contact-us .contact .sub i:hover {color:#11dd77}
+
+.contact-us .contact .links {width:25%;float:left}
+
+.contact-us .contact .links .fir {width:50%;float:left;overflow:hidden}
+
+.contact-us .contact .links h3 {
+    color:#FFF;
+    font-size: 15px;
+    padding: 100px 0px 22px 0px;
+}
+
+.contact-us .contact .links ul {list-style:none}
+
+.contact-us .contact .links ul li {color:#686A75;line-height:2}
+
+.contact-us .contact .call {width:25%;float:left}
+
+.contact-us .contact .map {width:25%;float:left}
+
+.contact-us .contact .call h3 {
+    color:#FFF;
+    font-size: 15px;
+    padding: 100px 0px 22px 0px;
+}
+
+.contact-us .contact .call ul {list-style:none}
+
+.contact-us .contact .call i {color:#6e6868;display:inline-block}
+
+.contact-us .contact .call ul li {color:#686A75;}
+
+.contact-us .contact .map h3{
+    color:#FFF;
+    font-size: 15px;
+    padding: 100px 0px 22px 0px
+}
+
+.contact-us .contact .map img {width:100%}
+
+/* End Contact-us */
+
+/* Start Footer */
+
+.footer {
+    height: 50px;
+    background-color: #31335C;
+    padding-top: 25px;
+}
+
+.footer div {text-align:center;color:#6e6868}
+
+.footer span {color:#11dd77}
+
+/* End Footer */
+
